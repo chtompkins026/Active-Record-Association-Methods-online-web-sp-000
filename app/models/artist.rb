@@ -15,7 +15,7 @@ class Artist < ActiveRecord::Base
       song.genre 
     end 
     
-    s
+    Self.genre
   end
   
 end
